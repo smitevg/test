@@ -20,23 +20,5 @@ public class Bar implements Serializable{
     public int volumn = 0;
 
 
-    public void addTick(Tick tick) {
-        if (this.date == null) {
-            this.date = tick.dateMinutes;
-            this.open = tick.last;
-            this.close = tick.last;
-            this.min = tick.last;
-            this.max = tick.last;
-            this.volumn = tick.volume;
-        } else {
-            if (this.date.equals( tick.dateMinutes )) {
-                this.volumn = this.volumn + tick.volume;
-                this.close = tick.last;
-                if (this.min > tick.last) this.min = tick.last;
-                if (this.max < tick.last) this.min = tick.last;
-            } else {
-                throw new RuntimeException("BAR DATA TICK");
-            }
-        }
-    }
+
 }
