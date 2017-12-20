@@ -1,0 +1,1 @@
+{"data":[{"load":"https://www.ya.ru","files":"vl0","f":"vl0","res":"ok"},{"load":"ya.ru","files":"vl1","f":"vl1","res":"java.net.MalformedURLException: no protocol: ya.ru"}]}
