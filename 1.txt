@@ -1,2 +1,0 @@
-{"data":[{"load":"https://www.ya.ru","files":"vl0","f":"vl0","res":"ok"},
-{"load":"https://github.com/git-for-windows/git/releases/download/v2.15.1.windows.2/Git-2.15.1.2-64-bit.exe","files":"git.exe.test"}]}
