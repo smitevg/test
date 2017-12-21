@@ -1,9 +1,0 @@
-{
-"data":
-[
-
-{"load":"https://github.com/sass/node-sass/releases/download/v4.7.2/win32-x64-57_binding.node","files":"win32-x64-57_binding.node"}
-
-]
-}
-
